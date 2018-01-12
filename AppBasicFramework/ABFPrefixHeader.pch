@@ -1,0 +1,80 @@
+//
+//  ABFPrefixHeader.pch
+//  AppBasicFramework
+//
+//  Created by apple on 2017/6/15.
+//  Copyright © 2017年 IGS. All rights reserved.
+//
+
+//
+//
+//                            _ooOoo_
+//                           o8888888o
+//                           88" . "88
+//                           (| -_- |)
+//                            O\ = /O
+//                        ____/`---'\____
+//                      .   ' \\| |// `.
+//                       / \\||| : |||// \
+//                     / _||||| -:- |||||- \
+//                       | | \\\ - /// | |
+//                     | \_| ''\---/'' | |
+//                      \ .-\__ `-` ___/-. /
+//                   ___`. .' /--.--\ `. . __
+//                ."" '< `.___\_<|>_/___.' >'"".
+//               | | : `- \`.;`\ _ /`;.`/ - ` : | |
+//                 \ \ `-. \_ __\ /__ _/ .-` / /
+//         ======`-.____`-.___\_____/___.-`____.-'======
+//                            `=---='
+//
+//         .............................................
+//                  佛祖镇楼                  BUG辟易
+
+#ifndef ABFPrefixHeader_pch
+#define ABFPrefixHeader_pch
+
+//全局宏
+#import "BasicMacros.h"
+#import "MethodsMactos.h"
+#import "ColorMactos.h"
+#import "CocoaLumberjackMactos.h"
+
+//基类头文件
+#import "BaseHeader.h"
+
+//扩展头文件
+#import "CategoryHeader.h"
+
+//webview宏定义
+#import "WebViewMacros.h"
+
+//基础类
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+
+//公共UI
+#import "PromptBounced.h"
+#import "IconSortingView.h"
+
+//Utils(工具类)
+//网络宏
+#import "IGSInterfacedConst.h"
+//网络
+#import "AFNetworking.h"
+#import "PPNetworkHelper.h"
+#import "IGSNetworkHelper.h"
+
+//自动布局
+#import "Masonry.h"
+//加载提示
+#import "SVProgressHUD.h"
+//刷新
+#import "MJRefresh.h"
+
+//检测内存泄漏打印日志系统
+#import "LogDeallocHeader.h"
+
+
+
+
+#endif /* ABFPrefixHeader_pch */
