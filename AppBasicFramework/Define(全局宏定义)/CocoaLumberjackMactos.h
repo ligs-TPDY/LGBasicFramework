@@ -45,7 +45,4 @@ static const DDLogLevel ddLogLevel = DDLogLevelError;
     5,GLogError:打印错误的系统返回的原因。
 */
 
-
-
-
 #endif /* CocoaLumberjackMactos_h */

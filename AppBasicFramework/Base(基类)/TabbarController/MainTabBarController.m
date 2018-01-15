@@ -66,7 +66,7 @@
     //创建UITabBar的子控制器
     [self createChildController];
     //选中时的颜色
-    self.tabBar.tintColor = Color244c191c27;
+    self.tabBar.tintColor = ColorF4BF1B;
 }
 //利用反射的方式创建子控制器对象（亮点）
 -(void)createChildController

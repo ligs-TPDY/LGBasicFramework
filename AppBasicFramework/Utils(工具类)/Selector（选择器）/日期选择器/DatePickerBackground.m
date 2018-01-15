@@ -51,8 +51,7 @@
             weakSelf.hidden = YES;
         }];
         
-        self.backgroundColor = Color244c191c27;
- 
+        self.backgroundColor = ColorF4BF1B;
     }
     return self;
 }
