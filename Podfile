@@ -26,4 +26,6 @@ pod 'CocoaLumberjack'
 
 pod 'ReactiveObjC'
 
+pod 'JLRoutes'
+
 end

@@ -36,7 +36,7 @@
     delegateController.delegate = self;
     [_userContentController addScriptMessageHandler:delegateController  name:@"sayhello"];
     
-    [_wkwebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.jianshu.com/"]]];
+    [_wkwebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@",httpNetworkAddress,_strAboutUrl]]]];
 }
 - (void)dealloc{
     //这里需要注意，前面增加过的方法一定要remove掉。

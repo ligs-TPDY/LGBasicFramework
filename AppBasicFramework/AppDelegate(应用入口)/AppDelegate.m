@@ -10,6 +10,8 @@
 
 #import "AppDelegate+AppService.h"
 
+#import "AppDelegate+Routes.h"
+
 #import "UMMobClick/MobClick.h"
 #import <UMSocialCore/UMSocialCore.h>
 
@@ -28,6 +30,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //初始化window
     [self initWindow];
+    ///注册路由
+    [self registeredRoute];
     //初始化友盟统计
     [self initUMeng];
     //初始化友盟分享
@@ -40,7 +44,6 @@
     NSLog(@"didFinishLaunchingWithOptions(告诉代理启动基本完成程序准备开始运行)");
     return YES;
 }
-
 - (void)applicationWillResignActive:(UIApplication *)application {
     
     NSLog(@"applicationWillResignActive(当应用程序将要进入非活动状态执行，在此期间，应用程序不接收消息或事件，比如来电话了)");

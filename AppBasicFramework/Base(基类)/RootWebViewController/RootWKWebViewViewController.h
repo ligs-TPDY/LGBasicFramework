@@ -10,4 +10,6 @@
 
 @interface RootWKWebViewViewController : RootViewController
 
+@property (nonatomic,strong) NSString *strAboutUrl;
+
 @end

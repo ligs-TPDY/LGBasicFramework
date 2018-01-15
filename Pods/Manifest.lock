@@ -21,6 +21,7 @@ PODS:
   - CocoaLumberjack/Default (3.2.0)
   - CocoaLumberjack/Extensions (3.2.0):
     - CocoaLumberjack/Default
+  - JLRoutes (2.0.5)
   - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
@@ -63,6 +64,7 @@ DEPENDENCIES:
   - AFNetworking
   - Bugly
   - CocoaLumberjack
+  - JLRoutes
   - Masonry
   - MBProgressHUD
   - MJRefresh
@@ -82,6 +84,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Bugly: da3c02408c14838d498429320545a8e439392978
   CocoaLumberjack: 9b4aed7073d242f29cc2f62068d995faf67f703a
+  JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
@@ -93,6 +96,6 @@ SPEC CHECKSUMS:
   UMengUShare: cd54ae52958426b79aa9193a7b02058d6a6d9aa0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 35b71b1174f17572c1cd186c28479168f6220750
+PODFILE CHECKSUM: 37eadada696ee8f88a6a60f0053ff6a256b5b3f0
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.3.1

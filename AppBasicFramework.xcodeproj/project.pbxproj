@@ -99,6 +99,7 @@
 		92001E3B1FD80EE800D805E0 /* TransactionRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E331FD80EE800D805E0 /* TransactionRecordViewController.m */; };
 		92001E3C1FD80EE800D805E0 /* TransactionRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E361FD80EE800D805E0 /* TransactionRecordTableViewCell.m */; };
 		92001E3D1FD80EE800D805E0 /* TransactionRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E371FD80EE800D805E0 /* TransactionRecordView.m */; };
+		920229D4200CA47F00C4D329 /* AppDelegate+Routes.m in Sources */ = {isa = PBXBuildFile; fileRef = 920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */; };
 		92471A951FD929AD007F83F1 /* CarouselAttemptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471A941FD929AD007F83F1 /* CarouselAttemptView.m */; };
 		92471A981FD929EF007F83F1 /* CarouselAttemptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471A971FD929EF007F83F1 /* CarouselAttemptViewController.m */; };
 		92471AA21FD9389B007F83F1 /* UIImage+LG_mostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471AA11FD9389B007F83F1 /* UIImage+LG_mostColor.m */; };
@@ -318,6 +319,8 @@
 		92001E371FD80EE800D805E0 /* TransactionRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionRecordView.m; sourceTree = "<group>"; };
 		92001E381FD80EE800D805E0 /* TransactionRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionRecordTableViewCell.h; sourceTree = "<group>"; };
 		92001E391FD80EE800D805E0 /* TransactionRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionRecordView.h; sourceTree = "<group>"; };
+		920229D2200CA47F00C4D329 /* AppDelegate+Routes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Routes.h"; sourceTree = "<group>"; };
+		920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Routes.m"; sourceTree = "<group>"; };
 		92471A931FD929AD007F83F1 /* CarouselAttemptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselAttemptView.h; sourceTree = "<group>"; };
 		92471A941FD929AD007F83F1 /* CarouselAttemptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselAttemptView.m; sourceTree = "<group>"; };
 		92471A961FD929EF007F83F1 /* CarouselAttemptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselAttemptViewController.h; sourceTree = "<group>"; };
@@ -575,6 +578,8 @@
 				1870E6901EF2246000A24475 /* AppDelegate+AppService.m */,
 				1870E6C81EF2687A00A24475 /* AppDelegate+PushService.h */,
 				1870E6C91EF2687A00A24475 /* AppDelegate+PushService.m */,
+				920229D2200CA47F00C4D329 /* AppDelegate+Routes.h */,
+				920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */,
 			);
 			path = "AppDelegate(应用入口)";
 			sourceTree = "<group>";
@@ -1549,7 +1554,7 @@
 				TargetAttributes = {
 					1870E6541EF2240400A24475 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 8R5AN52B4M;
+						DevelopmentTeam = 84D8EX8YEC;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -1628,9 +1633,17 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppBasicFramework/Pods-AppBasicFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1643,13 +1656,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppBasicFramework-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E07F3527671897ACFB5B75B /* [CP] Embed Pods Frameworks */ = {
@@ -1704,6 +1720,7 @@
 				9282410F1FD7D240005F983D /* IGSNetworkHelper+LG_NetworkState.m in Sources */,
 				18CAD8531F05DF3500CDA67F /* QrCodeGenerated.m in Sources */,
 				1847560E1EF785A100769D6F /* 说明文档.m in Sources */,
+				920229D4200CA47F00C4D329 /* AppDelegate+Routes.m in Sources */,
 				18AD43631EF3BE050020B541 /* GlobalVariablesStoreObject.m in Sources */,
 				92001E271FD80EAE00D805E0 /* MyGiftCertificateViewController.m in Sources */,
 				189EB1F71F04FCEF00D29B8D /* 使用文档.m in Sources */,
@@ -1932,7 +1949,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8R5AN52B4M;
+				DEVELOPMENT_TEAM = 84D8EX8YEC;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AppBasicFramework/ABFPrefixHeader.pch";
 				INFOPLIST_FILE = AppBasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1952,7 +1969,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 8R5AN52B4M;
+				DEVELOPMENT_TEAM = 84D8EX8YEC;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AppBasicFramework/ABFPrefixHeader.pch";
 				INFOPLIST_FILE = AppBasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

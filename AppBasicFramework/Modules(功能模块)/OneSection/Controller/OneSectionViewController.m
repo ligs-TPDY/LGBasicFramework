@@ -7,7 +7,7 @@
 //
 
 #import "OneSectionViewController.h"
-
+#import "JLRoutes.h"
 #import "OneSectionView.h"
 
 @interface OneSectionViewController ()
@@ -40,7 +40,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    RootWKWebViewViewController *wk = [[RootWKWebViewViewController alloc]init];
-    [self.navigationController pushViewController:wk animated:YES];
+    NSString *customURL = @"BASIC://NaviPush/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent";
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
 }
+
 @end

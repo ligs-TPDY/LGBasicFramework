@@ -38,4 +38,6 @@
 #define PropertyNSMutableArray(s) @property (nonatomic,strong) NSMutableArray * s
 #define PropertyNSDictionary(s) @property (nonatomic,strong) NSDictionary * s
 
+#define IMG(name) [UIImage imageNamed:name]
+
 #endif /* BasicMacros_h */

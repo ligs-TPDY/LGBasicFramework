@@ -21,7 +21,7 @@
             dicForParameters = [NSMutableDictionary dictionaryWithObjects:parameters forKeys:arrayForKey];
         }
         if ([tag isEqualToString:@"UShareContent"]) {
-            url = [NSString stringWithFormat:@"%@%@",GApiPrefix,UShareContent];//将请求前缀与请求路径拼接成一个完整的URL
+            url = [NSString stringWithFormat:@"%@%@",httpNetworkAddress,UShareContent];//将请求前缀与请求路径拼接成一个完整的URL
             NSArray *arrayForKey = @[@"",@"",@""];
             dicForParameters = [NSMutableDictionary dictionaryWithObjects:parameters forKeys:arrayForKey];
         }
