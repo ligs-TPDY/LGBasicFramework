@@ -100,6 +100,7 @@
 		92001E3C1FD80EE800D805E0 /* TransactionRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E361FD80EE800D805E0 /* TransactionRecordTableViewCell.m */; };
 		92001E3D1FD80EE800D805E0 /* TransactionRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E371FD80EE800D805E0 /* TransactionRecordView.m */; };
 		920229D4200CA47F00C4D329 /* AppDelegate+Routes.m in Sources */ = {isa = PBXBuildFile; fileRef = 920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */; };
+		920229DA200DACEE00C4D329 /* UIViewController+LG_Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 920229D9200DACEE00C4D329 /* UIViewController+LG_Controller.m */; };
 		92471A951FD929AD007F83F1 /* CarouselAttemptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471A941FD929AD007F83F1 /* CarouselAttemptView.m */; };
 		92471A981FD929EF007F83F1 /* CarouselAttemptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471A971FD929EF007F83F1 /* CarouselAttemptViewController.m */; };
 		92471AA21FD9389B007F83F1 /* UIImage+LG_mostColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 92471AA11FD9389B007F83F1 /* UIImage+LG_mostColor.m */; };
@@ -321,6 +322,8 @@
 		92001E391FD80EE800D805E0 /* TransactionRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionRecordView.h; sourceTree = "<group>"; };
 		920229D2200CA47F00C4D329 /* AppDelegate+Routes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Routes.h"; sourceTree = "<group>"; };
 		920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Routes.m"; sourceTree = "<group>"; };
+		920229D8200DACEE00C4D329 /* UIViewController+LG_Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LG_Controller.h"; sourceTree = "<group>"; };
+		920229D9200DACEE00C4D329 /* UIViewController+LG_Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LG_Controller.m"; sourceTree = "<group>"; };
 		92471A931FD929AD007F83F1 /* CarouselAttemptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselAttemptView.h; sourceTree = "<group>"; };
 		92471A941FD929AD007F83F1 /* CarouselAttemptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselAttemptView.m; sourceTree = "<group>"; };
 		92471A961FD929EF007F83F1 /* CarouselAttemptViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselAttemptViewController.h; sourceTree = "<group>"; };
@@ -1352,6 +1355,8 @@
 				928240EF1FD79E44005F983D /* UIView+LG_init.m */,
 				92E7592F1FF2529F004ACE29 /* UIView+LG_BackgroundGradients.h */,
 				92E759301FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m */,
+				920229D8200DACEE00C4D329 /* UIViewController+LG_Controller.h */,
+				920229D9200DACEE00C4D329 /* UIViewController+LG_Controller.m */,
 			);
 			path = UIViewCategory;
 			sourceTree = "<group>";
@@ -1784,6 +1789,7 @@
 				189EB1D71F04D55C00D29B8D /* 说明文档.m in Sources */,
 				92471A951FD929AD007F83F1 /* CarouselAttemptView.m in Sources */,
 				811D48EE1F5559FF00B25E4D /* CatchCrash.m in Sources */,
+				920229DA200DACEE00C4D329 /* UIViewController+LG_Controller.m in Sources */,
 				92001E3D1FD80EE800D805E0 /* TransactionRecordView.m in Sources */,
 				92AC7C7E1FD952E400344B6C /* UIColor+LG_colorChange.m in Sources */,
 				189EB1EE1F04FCBF00D29B8D /* DatePickerBackground.m in Sources */,

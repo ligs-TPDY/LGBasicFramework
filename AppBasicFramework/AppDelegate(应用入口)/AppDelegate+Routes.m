@@ -18,7 +18,27 @@
 - (void)registeredRoute
 {
     //navigation Push规则
-    [[JLRoutes globalRoutes] addRoute:@"/NaviPush/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+    [[JLRoutes globalRoutes] addRoute:@"/Webview/:controller"
+                              handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        NSLog(@"%@",parameters);
+        UIViewController *currentVc = [self currentViewController];
+        UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
+        [self paramToVc:v param:parameters];
+        [currentVc.navigationController pushViewController:v animated:YES];
+        return YES;
+    }];
+    
+    [[JLRoutes routesForScheme:@"One"] addRoute:@"/Webview/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        NSLog(@"%@",parameters);
+        UIViewController *currentVc = [self currentViewController];
+        UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
+        [self paramToVc:v param:parameters];
+        [currentVc.navigationController pushViewController:v animated:YES];
+        return YES;
+    }];
+    
+    [[JLRoutes routesForScheme:@"BASIC"] addRoute:@"/Webview/:controller" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters) {
+        NSLog(@"%@",parameters);
         UIViewController *currentVc = [self currentViewController];
         UIViewController *v = [[NSClassFromString(parameters[@"controller"]) alloc] init];
         [self paramToVc:v param:parameters];
@@ -40,10 +60,11 @@
     }
 }
 /**
- *获取当前控制器
+ *  获取当前控制器
  */
 -(UIViewController *)currentViewController{
     
-    return [self getCurrentUIVC];
+    return [self getTopVC];
 }
+
 @end

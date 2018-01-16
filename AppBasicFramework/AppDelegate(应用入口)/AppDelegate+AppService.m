@@ -213,7 +213,6 @@
 #pragma mark - --获取到最上层的控制器--
 - (UIViewController *)getTopVC
 {
-    
     UIWindow *window = [[UIApplication sharedApplication].windows firstObject];
     if (!window) {
         return nil;

@@ -40,8 +40,11 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    NSString *customURL = @"BASIC://NaviPush/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent";
+    NSString *customURL = @"One://Webview/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent";
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:customURL]];
+    
+//    NSURL *editPost = [NSURL URLWithString:@"BASIC://Webview/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent"];
+//    [JLRoutes routeURL:editPost];
 }
 
 @end
