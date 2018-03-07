@@ -128,6 +128,8 @@
 		92BE28B31FE0C1E900D082C4 /* RootWKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE28B11FE0C1E900D082C4 /* RootWKWebViewViewController.m */; };
 		92BE28B61FE0DE2400D082C4 /* WKDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92BE28B51FE0DE2400D082C4 /* WKDelegateController.m */; };
 		92E759311FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E759301FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m */; };
+		92F5508A204F94C80081E1B5 /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55089204F94C80081E1B5 /* text.m */; };
+		92F5508D204F94D60081E1B5 /* text2.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5508C204F94D60081E1B5 /* text2.m */; };
 		F79BD6D33BCC7708D98C62F2 /* libPods-AppBasicFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC00BA82DB2D062405339D4 /* libPods-AppBasicFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -381,6 +383,10 @@
 		92BE28B51FE0DE2400D082C4 /* WKDelegateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKDelegateController.m; sourceTree = "<group>"; };
 		92E7592F1FF2529F004ACE29 /* UIView+LG_BackgroundGradients.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LG_BackgroundGradients.h"; sourceTree = "<group>"; };
 		92E759301FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LG_BackgroundGradients.m"; sourceTree = "<group>"; };
+		92F55088204F94C80081E1B5 /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		92F55089204F94C80081E1B5 /* text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
+		92F5508B204F94D60081E1B5 /* text2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text2.h; sourceTree = "<group>"; };
+		92F5508C204F94D60081E1B5 /* text2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text2.m; sourceTree = "<group>"; };
 		A7740C95E937A4D242BB094D /* Pods-AppBasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppBasicFramework/Pods-AppBasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -626,6 +632,8 @@
 		1870E6991EF2246000A24475 /* Manager(管理模块) */ = {
 			isa = PBXGroup;
 			children = (
+				92F5508B204F94D60081E1B5 /* text2.h */,
+				92F5508C204F94D60081E1B5 /* text2.m */,
 			);
 			path = "Manager(管理模块)";
 			sourceTree = "<group>";
@@ -644,6 +652,8 @@
 		1870E69B1EF2246000A24475 /* Resource(资源文件夹) */ = {
 			isa = PBXGroup;
 			children = (
+				92F55088204F94C80081E1B5 /* text.h */,
+				92F55089204F94C80081E1B5 /* text.m */,
 			);
 			path = "Resource(资源文件夹)";
 			sourceTree = "<group>";
@@ -1717,6 +1727,7 @@
 				189EB23B1F05059A00D29B8D /* OperationFactory.m in Sources */,
 				92471A981FD929EF007F83F1 /* CarouselAttemptViewController.m in Sources */,
 				189EB2181F0501F400D29B8D /* ClickAreaModelForCounties.m in Sources */,
+				92F5508A204F94C80081E1B5 /* text.m in Sources */,
 				189EB23C1F05059A00D29B8D /* Opration.m in Sources */,
 				92AC7C791FD94CCB00344B6C /* PriorityBoxArray.m in Sources */,
 				189EB2291F0503E700D29B8D /* BankModel.m in Sources */,
@@ -1748,6 +1759,7 @@
 				928240F01FD79E44005F983D /* UIView+LG_init.m in Sources */,
 				189F67811F00E26C00279411 /* CustomEqual.m in Sources */,
 				18CAD85A1F05E40500CDA67F /* ScanQrCodeViewController.m in Sources */,
+				92F5508D204F94D60081E1B5 /* text2.m in Sources */,
 				1870E6DB1EF26E2F00A24475 /* 资源文档.m in Sources */,
 				186A92F91EFB5EA6001069EA /* OneSectionView.m in Sources */,
 				92001E091FD80BD000D805E0 /* ClassicClassificationDropDownView.m in Sources */,
