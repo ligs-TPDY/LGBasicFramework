@@ -38,6 +38,13 @@
     return _mainView;
 }
 
+//- (void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:YES];
+//
+//    NSArray *array = @[@"1"];
+//    NSLog(@"%@",array[2]);
+//}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     NSString *customURL = @"One://Webview/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent";
