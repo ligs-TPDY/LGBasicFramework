@@ -74,6 +74,9 @@
 //检测内存泄漏打印日志系统
 #import "LogDeallocHeader.h"
 
+//bugly头文件
+#import <Bugly/Bugly.h>
+
 
 
 
