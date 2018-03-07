@@ -117,6 +117,10 @@
     // 设置自定义日志上报的级别，默认不上报自定义日志
     config.reportLogLevel = BuglyLogLevelWarn;
     [Bugly startWithAppId:@"6c83048fc8" config:config];
+    
+    //开启卡顿检测
+    [config setBlockMonitorEnable:YES];
+    [config setBlockMonitorTimeout:2];
 }
 
 #pragma mark ————— CocoaLumberjack初始化 —————
