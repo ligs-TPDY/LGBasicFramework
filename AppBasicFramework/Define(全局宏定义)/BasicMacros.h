@@ -13,7 +13,7 @@
 #define GScreenWidth  [[UIScreen mainScreen] bounds].size.width
 #define GScreenHeight [[UIScreen mainScreen] bounds].size.height
 #define GSPercentage(s)  s/375
-#define GSDistance(s) GScreenWidth *GSPercentage(s)
+#define GSDistance(s) GScreenWidth * GSPercentage(s)
 
 /** 强弱引用*/
 #define GWeakSelf(type)  __weak typeof(type) weak##type = type;

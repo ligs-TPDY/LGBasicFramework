@@ -12,6 +12,8 @@
 
 #import "AppDelegate+Routes.h"
 
+#import "AppDelegate+LG_localNotification.h"
+
 #import "UMMobClick/MobClick.h"
 #import <UMSocialCore/UMSocialCore.h>
 
@@ -40,6 +42,8 @@
     [self initBugly];
     //初始化CocoaLumjack
     [self initCocoaLumberjack];
+//    //设置本地推送
+//    [self createLGLocalNotification:launchOptions];
     
     NSLog(@"didFinishLaunchingWithOptions(告诉代理启动基本完成程序准备开始运行)");
     return YES;

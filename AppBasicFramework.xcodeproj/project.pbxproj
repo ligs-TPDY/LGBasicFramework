@@ -86,6 +86,7 @@
 		811D48EE1F5559FF00B25E4D /* CatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D48ED1F5559FF00B25E4D /* CatchCrash.m */; };
 		81E359FF1F34475200B8F458 /* NSObject+GSLogDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E359FE1F34475200B8F458 /* NSObject+GSLogDealloc.m */; };
 		81E35A021F34495C00B8F458 /* RootViewController+GSLogDeallocVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E35A011F34495C00B8F458 /* RootViewController+GSLogDeallocVC.m */; };
+		81F788F0204F992C00B532AA /* AppDelegate+LG_localNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F788EE204F992C00B532AA /* AppDelegate+LG_localNotification.m */; };
 		92001E081FD80BD000D805E0 /* ClassicClassificationDropDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001DF21FD80BD000D805E0 /* ClassicClassificationDropDownTableViewCell.m */; };
 		92001E091FD80BD000D805E0 /* ClassicClassificationDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001DF31FD80BD000D805E0 /* ClassicClassificationDropDownView.m */; };
 		92001E261FD80EAE00D805E0 /* MGViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 92001E141FD80EAE00D805E0 /* MGViewModel.m */; };
@@ -295,6 +296,8 @@
 		81E359FE1F34475200B8F458 /* NSObject+GSLogDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GSLogDealloc.m"; sourceTree = "<group>"; };
 		81E35A001F34495C00B8F458 /* RootViewController+GSLogDeallocVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RootViewController+GSLogDeallocVC.h"; sourceTree = "<group>"; };
 		81E35A011F34495C00B8F458 /* RootViewController+GSLogDeallocVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RootViewController+GSLogDeallocVC.m"; sourceTree = "<group>"; };
+		81F788EE204F992C00B532AA /* AppDelegate+LG_localNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+LG_localNotification.m"; sourceTree = "<group>"; };
+		81F788EF204F992C00B532AA /* AppDelegate+LG_localNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+LG_localNotification.h"; sourceTree = "<group>"; };
 		8865B59C64AD10929270D8CE /* Pods-AppBasicFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBasicFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppBasicFramework/Pods-AppBasicFramework.release.xcconfig"; sourceTree = "<group>"; };
 		92001DF21FD80BD000D805E0 /* ClassicClassificationDropDownTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicClassificationDropDownTableViewCell.m; sourceTree = "<group>"; };
 		92001DF31FD80BD000D805E0 /* ClassicClassificationDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicClassificationDropDownView.m; sourceTree = "<group>"; };
@@ -547,6 +550,7 @@
 		1870E6581EF2240400A24475 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1870E6DA1EF26E2F00A24475 /* 资源文档.m */,
 				1870E6591EF2240400A24475 /* main.m */,
 				1870E6C71EF2672000A24475 /* ABFPrefixHeader.pch */,
 				1870E6671EF2240400A24475 /* Assets.xcassets */,
@@ -554,7 +558,6 @@
 				1870E6691EF2240400A24475 /* LaunchScreen.storyboard */,
 				1870E66C1EF2240400A24475 /* Info.plist */,
 				1870E6641EF2240400A24475 /* AppBasicFramework.xcdatamodeld */,
-				1870E6DA1EF26E2F00A24475 /* 资源文档.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -589,6 +592,8 @@
 				1870E6C91EF2687A00A24475 /* AppDelegate+PushService.m */,
 				920229D2200CA47F00C4D329 /* AppDelegate+Routes.h */,
 				920229D3200CA47F00C4D329 /* AppDelegate+Routes.m */,
+				81F788EF204F992C00B532AA /* AppDelegate+LG_localNotification.h */,
+				81F788EE204F992C00B532AA /* AppDelegate+LG_localNotification.m */,
 			);
 			path = "AppDelegate(应用入口)";
 			sourceTree = "<group>";
@@ -1751,6 +1756,7 @@
 				9256B7BF1FDFBA2A002E8FA0 /* RootViewController+LG_Navigation.m in Sources */,
 				1870E6CD1EF2692200A24475 /* OneSectionViewController.m in Sources */,
 				186A93221EFBC190001069EA /* IconSortingView.m in Sources */,
+				81F788F0204F992C00B532AA /* AppDelegate+LG_localNotification.m in Sources */,
 				1847560F1EF785A100769D6F /* UMShareViewForCustom.m in Sources */,
 				92AC7C7A1FD94CCB00344B6C /* PaletteTarget.m in Sources */,
 				189EB2041F0500C800D29B8D /* 使用文档.m in Sources */,
