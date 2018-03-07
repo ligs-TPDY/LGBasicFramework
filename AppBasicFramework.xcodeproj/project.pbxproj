@@ -131,6 +131,7 @@
 		92E759311FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m in Sources */ = {isa = PBXBuildFile; fileRef = 92E759301FF2529F004ACE29 /* UIView+LG_BackgroundGradients.m */; };
 		92F5508A204F94C80081E1B5 /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55089204F94C80081E1B5 /* text.m */; };
 		92F5508D204F94D60081E1B5 /* text2.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5508C204F94D60081E1B5 /* text2.m */; };
+		92F55091204FCA630081E1B5 /* DataBaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F55090204FCA630081E1B5 /* DataBaseHelper.m */; };
 		F79BD6D33BCC7708D98C62F2 /* libPods-AppBasicFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC00BA82DB2D062405339D4 /* libPods-AppBasicFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -390,6 +391,8 @@
 		92F55089204F94C80081E1B5 /* text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
 		92F5508B204F94D60081E1B5 /* text2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text2.h; sourceTree = "<group>"; };
 		92F5508C204F94D60081E1B5 /* text2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text2.m; sourceTree = "<group>"; };
+		92F5508F204FCA630081E1B5 /* DataBaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseHelper.h; sourceTree = "<group>"; };
+		92F55090204FCA630081E1B5 /* DataBaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseHelper.m; sourceTree = "<group>"; };
 		A7740C95E937A4D242BB094D /* Pods-AppBasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppBasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppBasicFramework/Pods-AppBasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -676,6 +679,7 @@
 		1870E69D1EF2246000A24475 /* Utils(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				92F5508E204FCA630081E1B5 /* DataCache（数据缓存） */,
 				1870E6E21EF27B1000A24475 /* GetSystemInformation(获取系统信息) */,
 				1870E6E81EF27F4100A24475 /* DetWork(网络) */,
 				18AD43601EF3BDAE0020B541 /* GlobalVariablesStore(全局变量存储) */,
@@ -1495,6 +1499,15 @@
 			path = UIColorCategory;
 			sourceTree = "<group>";
 		};
+		92F5508E204FCA630081E1B5 /* DataCache（数据缓存） */ = {
+			isa = PBXGroup;
+			children = (
+				92F5508F204FCA630081E1B5 /* DataBaseHelper.h */,
+				92F55090204FCA630081E1B5 /* DataBaseHelper.m */,
+			);
+			path = "DataCache（数据缓存）";
+			sourceTree = "<group>";
+		};
 		D434FABB4953D360B1C3054E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1744,6 +1757,7 @@
 				920229D4200CA47F00C4D329 /* AppDelegate+Routes.m in Sources */,
 				18AD43631EF3BE050020B541 /* GlobalVariablesStoreObject.m in Sources */,
 				92001E271FD80EAE00D805E0 /* MyGiftCertificateViewController.m in Sources */,
+				92F55091204FCA630081E1B5 /* DataBaseHelper.m in Sources */,
 				189EB1F71F04FCEF00D29B8D /* 使用文档.m in Sources */,
 				92001E3C1FD80EE800D805E0 /* TransactionRecordTableViewCell.m in Sources */,
 				1870E6A11EF2246000A24475 /* MainTabBarController.m in Sources */,
