@@ -728,7 +728,6 @@
 			children = (
 				1870E6AF1EF2667100A24475 /* Controller */,
 				1870E6B31EF2667100A24475 /* View */,
-				1870E6B01EF2667100A24475 /* Model */,
 			);
 			path = FourSection;
 			sourceTree = "<group>";
@@ -740,13 +739,6 @@
 				1870E6D51EF2697B00A24475 /* FourSectionViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		1870E6B01EF2667100A24475 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		1870E6B31EF2667100A24475 /* View */ = {
@@ -763,7 +755,6 @@
 			children = (
 				1870E6B51EF2667100A24475 /* Controller */,
 				1870E6B91EF2667100A24475 /* View */,
-				1870E6B61EF2667100A24475 /* Model */,
 			);
 			path = OneSection;
 			sourceTree = "<group>";
@@ -775,13 +766,6 @@
 				1870E6CC1EF2692200A24475 /* OneSectionViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		1870E6B61EF2667100A24475 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		1870E6B91EF2667100A24475 /* View */ = {
@@ -798,7 +782,6 @@
 			children = (
 				1870E6BB1EF2667100A24475 /* Controller */,
 				1870E6BF1EF2667100A24475 /* View */,
-				1870E6BC1EF2667100A24475 /* Model */,
 			);
 			path = ThreeSection;
 			sourceTree = "<group>";
@@ -810,13 +793,6 @@
 				1870E6D21EF2696200A24475 /* ThreeSectionViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		1870E6BC1EF2667100A24475 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		1870E6BF1EF2667100A24475 /* View */ = {
@@ -831,8 +807,8 @@
 		1870E6C01EF2667100A24475 /* TowSection */ = {
 			isa = PBXGroup;
 			children = (
+				1870E6C11EF2667100A24475 /* Controller */,
 				1870E6C51EF2667100A24475 /* View */,
-				1870E6C21EF2667100A24475 /* Model */,
 			);
 			path = TowSection;
 			sourceTree = "<group>";
@@ -846,17 +822,9 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		1870E6C21EF2667100A24475 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		1870E6C51EF2667100A24475 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1870E6C11EF2667100A24475 /* Controller */,
 				186A92FA1EFB5F30001069EA /* TowSectionView.h */,
 				186A92FB1EFB5F30001069EA /* TowSectionView.m */,
 			);
