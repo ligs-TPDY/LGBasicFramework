@@ -75,8 +75,6 @@
 		189EB23C1F05059A00D29B8D /* Opration.m in Sources */ = {isa = PBXBuildFile; fileRef = 189EB2381F05059A00D29B8D /* Opration.m */; };
 		189EB23E1F05074E00D29B8D /* 6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png in Resources */ = {isa = PBXBuildFile; fileRef = 189EB23D1F05074E00D29B8D /* 6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png */; };
 		189F677A1F00979000279411 /* 使用文档.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F67791F00979000279411 /* 使用文档.m */; };
-		189F677E1F00E19D00279411 /* 说明文档.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F677D1F00E19D00279411 /* 说明文档.m */; };
-		189F67811F00E26C00279411 /* CustomEqual.m in Sources */ = {isa = PBXBuildFile; fileRef = 189F67801F00E26C00279411 /* CustomEqual.m */; };
 		18AD43631EF3BE050020B541 /* GlobalVariablesStoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AD43621EF3BE050020B541 /* GlobalVariablesStoreObject.m */; };
 		18CAD8531F05DF3500CDA67F /* QrCodeGenerated.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD8521F05DF3500CDA67F /* QrCodeGenerated.m */; };
 		18CAD85A1F05E40500CDA67F /* ScanQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD8591F05E40500CDA67F /* ScanQrCodeViewController.m */; };
@@ -273,9 +271,6 @@
 		189EB2381F05059A00D29B8D /* Opration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Opration.m; sourceTree = "<group>"; };
 		189EB23D1F05074E00D29B8D /* 6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png"; sourceTree = "<group>"; };
 		189F67791F00979000279411 /* 使用文档.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "使用文档.m"; sourceTree = "<group>"; };
-		189F677D1F00E19D00279411 /* 说明文档.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "说明文档.m"; sourceTree = "<group>"; };
-		189F677F1F00E26C00279411 /* CustomEqual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEqual.h; sourceTree = "<group>"; };
-		189F67801F00E26C00279411 /* CustomEqual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEqual.m; sourceTree = "<group>"; };
 		18AD435B1EF36AD30020B541 /* IGSInterfacedConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGSInterfacedConst.h; sourceTree = "<group>"; };
 		18AD43611EF3BE050020B541 /* GlobalVariablesStoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariablesStoreObject.h; sourceTree = "<group>"; };
 		18AD43621EF3BE050020B541 /* GlobalVariablesStoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariablesStoreObject.m; sourceTree = "<group>"; };
@@ -686,7 +681,6 @@
 				184756051EF7635D00769D6F /* Category(类别) */,
 				1847560A1EF7856F00769D6F /* U-Share(友盟分享) */,
 				186A93191EFBB3A9001069EA /* PublicUI(公共UI) */,
-				189F677B1F00E12200279411 /* KnowledgeStudy（知识研究） */,
 				189EB1D31F04D12A00D29B8D /* Exception Handling（异常处理） */,
 				189EB1E21F04FC8F00D29B8D /* Selector（选择器） */,
 				18CAD85B1F05EA7700CDA67F /* GuidePage（引导页） */,
@@ -1077,24 +1071,6 @@
 				189EB23D1F05074E00D29B8D /* 6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png */,
 			);
 			path = "计算器";
-			sourceTree = "<group>";
-		};
-		189F677B1F00E12200279411 /* KnowledgeStudy（知识研究） */ = {
-			isa = PBXGroup;
-			children = (
-				189F677C1F00E18300279411 /* isEqual与==与hash */,
-			);
-			path = "KnowledgeStudy（知识研究）";
-			sourceTree = "<group>";
-		};
-		189F677C1F00E18300279411 /* isEqual与==与hash */ = {
-			isa = PBXGroup;
-			children = (
-				189F677D1F00E19D00279411 /* 说明文档.m */,
-				189F677F1F00E26C00279411 /* CustomEqual.h */,
-				189F67801F00E26C00279411 /* CustomEqual.m */,
-			);
-			path = "isEqual与==与hash";
 			sourceTree = "<group>";
 		};
 		18AD43601EF3BDAE0020B541 /* GlobalVariablesStore(全局变量存储) */ = {
@@ -1788,10 +1764,8 @@
 				1847560F1EF785A100769D6F /* UMShareViewForCustom.m in Sources */,
 				92AC7C7A1FD94CCB00344B6C /* PaletteTarget.m in Sources */,
 				189EB2041F0500C800D29B8D /* 使用文档.m in Sources */,
-				189F677E1F00E19D00279411 /* 说明文档.m in Sources */,
 				928240E71FD796BC005F983D /* UILabel+LG_init.m in Sources */,
 				928240F01FD79E44005F983D /* UIView+LG_init.m in Sources */,
-				189F67811F00E26C00279411 /* CustomEqual.m in Sources */,
 				18CAD85A1F05E40500CDA67F /* ScanQrCodeViewController.m in Sources */,
 				92F5508D204F94D60081E1B5 /* text2.m in Sources */,
 				1870E6DB1EF26E2F00A24475 /* 资源文档.m in Sources */,
