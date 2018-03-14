@@ -23,12 +23,12 @@
     self = [super init];
     if (self) {
      
-        [IGSNetworkHelper getDatAccordingTag:@"UShareContent" Parameters:nil success:^(id response) {
-            //获取到分享的数据
-            _dic = (NSDictionary *)response;
-            //弹出分享界面
-            [self UMShare];
-        } failure:nil];
+//        [IGSNetworkHelper getDatAccordingTag:@"UShareContent" Parameters:nil success:^(id response) {
+//            //获取到分享的数据
+//            _dic = (NSDictionary *)response;
+//            //弹出分享界面
+//            [self UMShare];
+//        } failure:nil];
     }
     return self;
 }

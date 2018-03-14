@@ -11,11 +11,11 @@
 @implementation TRViewModel
 + (void)getTradeDetailData:(RootViewController *)controller Parameters:(NSDictionary *)dic
 {
-    [IGSNetworkHelper getDatAccordingTag:@"tradeDetail" Parameters:dic success:^(id response) {
-        if ([self unifiedAnalyticNetwork:response Controller:controller]) {
-            
-        }
-    } failure:^(NSError *error) {
-    }];
+//    [IGSNetworkHelper getDatAccordingTag:@"tradeDetail" Parameters:dic success:^(id response) {
+//        if ([self unifiedAnalyticNetwork:response Controller:controller]) {
+//
+//        }
+//    } failure:^(NSError *error) {
+//    }];
 }
 @end

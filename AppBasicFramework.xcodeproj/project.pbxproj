@@ -80,6 +80,7 @@
 		18CAD85A1F05E40500CDA67F /* ScanQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD8591F05E40500CDA67F /* ScanQrCodeViewController.m */; };
 		18CAD8601F05EA8400CDA67F /* GuideInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD85D1F05EA8400CDA67F /* GuideInterfaceViewController.m */; };
 		18CAD8611F05EA8400CDA67F /* ScrollHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD85F1F05EA8400CDA67F /* ScrollHeadView.m */; };
+		6D7F8E3A2058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F8E392058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m */; };
 		811D48EB1F55577100B25E4D /* RootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D48EA1F55577100B25E4D /* RootObject.m */; };
 		811D48EE1F5559FF00B25E4D /* CatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D48ED1F5559FF00B25E4D /* CatchCrash.m */; };
 		81E359FF1F34475200B8F458 /* NSObject+GSLogDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E359FE1F34475200B8F458 /* NSObject+GSLogDealloc.m */; };
@@ -282,6 +283,8 @@
 		18CAD85D1F05EA8400CDA67F /* GuideInterfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideInterfaceViewController.m; sourceTree = "<group>"; };
 		18CAD85E1F05EA8400CDA67F /* ScrollHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollHeadView.h; sourceTree = "<group>"; };
 		18CAD85F1F05EA8400CDA67F /* ScrollHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollHeadView.m; sourceTree = "<group>"; };
+		6D7F8E382058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPNetworkHelper+LG_RequestType.h"; sourceTree = "<group>"; };
+		6D7F8E392058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PPNetworkHelper+LG_RequestType.m"; sourceTree = "<group>"; };
 		7BC00BA82DB2D062405339D4 /* libPods-AppBasicFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppBasicFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D48E71F5554DF00B25E4D /* LogDeallocHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogDeallocHeader.h; sourceTree = "<group>"; };
 		811D48E91F55577100B25E4D /* RootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootObject.h; sourceTree = "<group>"; };
@@ -1424,6 +1427,8 @@
 			children = (
 				9282410D1FD7D240005F983D /* IGSNetworkHelper+LG_NetworkState.h */,
 				9282410E1FD7D240005F983D /* IGSNetworkHelper+LG_NetworkState.m */,
+				6D7F8E382058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.h */,
+				6D7F8E392058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m */,
 			);
 			path = IGSNetworkHelperCategory;
 			sourceTree = "<group>";
@@ -1564,7 +1569,7 @@
 				TargetAttributes = {
 					1870E6541EF2240400A24475 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 84D8EX8YEC;
+						DevelopmentTeam = 6DXYLCKQXL;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -1725,6 +1730,7 @@
 				186A92FC1EFB5F30001069EA /* TowSectionView.m in Sources */,
 				81E359FF1F34475200B8F458 /* NSObject+GSLogDealloc.m in Sources */,
 				92001E291FD80EAE00D805E0 /* MyGiftCertificateView.m in Sources */,
+				6D7F8E3A2058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m in Sources */,
 				92001E3B1FD80EE800D805E0 /* TransactionRecordViewController.m in Sources */,
 				189EB21A1F0501F400D29B8D /* GetProvincialCityAndCountyInformation.m in Sources */,
 				811D48EB1F55577100B25E4D /* RootObject.m in Sources */,
@@ -1975,7 +1981,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 84D8EX8YEC;
+				DEVELOPMENT_TEAM = 6DXYLCKQXL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AppBasicFramework/ABFPrefixHeader.pch";
 				INFOPLIST_FILE = AppBasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1995,7 +2001,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 84D8EX8YEC;
+				DEVELOPMENT_TEAM = 6DXYLCKQXL;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AppBasicFramework/ABFPrefixHeader.pch";
 				INFOPLIST_FILE = AppBasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

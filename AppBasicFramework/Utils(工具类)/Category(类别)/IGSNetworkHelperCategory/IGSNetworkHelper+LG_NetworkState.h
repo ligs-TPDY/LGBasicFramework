@@ -13,4 +13,6 @@
 ///提示网络失败信息
 + (void)NetworkStateForFailure;
 
+
+
 @end

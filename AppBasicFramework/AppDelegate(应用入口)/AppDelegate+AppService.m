@@ -16,8 +16,11 @@
 #import <Bugly/Bugly.h>
 //引导界面
 #import "GuideInterfaceViewController.h"
+
+//buglu的ID
+static NSString * BuglyID = @"6c83048fc8";
 //友盟的key
-#define UMStatisticalAppKey @"59473dfe6e27a447100013ed"
+static NSString * UMStatisticalAppKey = @"59473dfe6e27a447100013ed";
 
 @implementation AppDelegate (AppService)
 
@@ -111,12 +114,12 @@
 #pragma mark ————— bugly初始化 —————
 -(void)initBugly
 {
-    [Bugly startWithAppId:@"6c83048fc8"];
+//    [Bugly startWithAppId:BuglyID];
     
-    BuglyConfig * config = [[BuglyConfig alloc] init];
+    BuglyConfig * config = [[BuglyConfig alloc]init];
     // 设置自定义日志上报的级别，默认不上报自定义日志
-    config.reportLogLevel = BuglyLogLevelWarn;
-    [Bugly startWithAppId:@"6c83048fc8" config:config];
+    config.reportLogLevel = BuglyLogLevelVerbose;
+    [Bugly startWithAppId:BuglyID config:config];
     
     //开启卡顿检测
     [config setBlockMonitorEnable:YES];
@@ -132,7 +135,7 @@
     // 添加DDASLLogger，你的日志语句将被发送到Xcode控制台
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     // 添加DDTTYLogger，你的日志语句将被发送到Console.app
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
+//    [DDLog addLogger:[DDASLLogger sharedInstance]];
     // 添加DDFileLogger，你的日志语句将写入到一个文件中，默认路径在沙盒的Library/Caches/Logs/目录下，文件名为bundleid+空格+日期.log。
     DDFileLogger *fileLogger = [[DDFileLogger alloc] init];
     fileLogger.rollingFrequency = 60 * 60 * 24;

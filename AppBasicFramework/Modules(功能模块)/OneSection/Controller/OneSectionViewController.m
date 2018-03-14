@@ -38,13 +38,17 @@
     return _mainView;
 }
 
-//- (void)viewDidAppear:(BOOL)animated
-//{
-//    [super viewDidAppear:YES];
-//
-//    NSArray *array = @[@"1"];
-//    NSLog(@"%@",array[2]);
-//}
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:YES];
+    
+    [IGSNetworkHelper obtainDatAccordingTag:@"AppStore" requestType:POST Parameters:nil success:^(id response) {
+        BLYLogDebug(@"%@",response);
+    } failure:^(NSError *error) {
+//        NSLog(@"%@",error);
+    }];
+    
+}
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     NSString *customURL = @"One://Webview/RootWKWebViewViewController?strAboutUrl=mobile/loanEvent";

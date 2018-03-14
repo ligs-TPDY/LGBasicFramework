@@ -138,6 +138,7 @@ static AFHTTPSessionManager *_sessionManager;
         failure ? failure(error) : nil;
         
     }];
+    
     // 添加sessionTask到数组
     sessionTask ? [[self allSessionTask] addObject:sessionTask] : nil ;
     
