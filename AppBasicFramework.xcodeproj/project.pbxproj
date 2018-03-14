@@ -81,6 +81,14 @@
 		18CAD8601F05EA8400CDA67F /* GuideInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD85D1F05EA8400CDA67F /* GuideInterfaceViewController.m */; };
 		18CAD8611F05EA8400CDA67F /* ScrollHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CAD85F1F05EA8400CDA67F /* ScrollHeadView.m */; };
 		6D7F8E3A2058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7F8E392058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m */; };
+		6D7F8E3C2058F2FC00B0DFA7 /* model in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E3B2058F2FC00B0DFA7 /* model */; };
+		6D7F8E3E2058F30900B0DFA7 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E3D2058F30900B0DFA7 /* ViewModel */; };
+		6D7F8E412058F32E00B0DFA7 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E3F2058F32E00B0DFA7 /* ViewModel */; };
+		6D7F8E422058F32E00B0DFA7 /* model in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E402058F32E00B0DFA7 /* model */; };
+		6D7F8E452058F33E00B0DFA7 /* model in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E432058F33E00B0DFA7 /* model */; };
+		6D7F8E462058F33E00B0DFA7 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E442058F33E00B0DFA7 /* ViewModel */; };
+		6D7F8E492058F35200B0DFA7 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E472058F35100B0DFA7 /* ViewModel */; };
+		6D7F8E4A2058F35200B0DFA7 /* model in Resources */ = {isa = PBXBuildFile; fileRef = 6D7F8E482058F35200B0DFA7 /* model */; };
 		811D48EB1F55577100B25E4D /* RootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D48EA1F55577100B25E4D /* RootObject.m */; };
 		811D48EE1F5559FF00B25E4D /* CatchCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 811D48ED1F5559FF00B25E4D /* CatchCrash.m */; };
 		81E359FF1F34475200B8F458 /* NSObject+GSLogDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E359FE1F34475200B8F458 /* NSObject+GSLogDealloc.m */; };
@@ -285,6 +293,14 @@
 		18CAD85F1F05EA8400CDA67F /* ScrollHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollHeadView.m; sourceTree = "<group>"; };
 		6D7F8E382058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPNetworkHelper+LG_RequestType.h"; sourceTree = "<group>"; };
 		6D7F8E392058D51400B0DFA7 /* PPNetworkHelper+LG_RequestType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "PPNetworkHelper+LG_RequestType.m"; sourceTree = "<group>"; };
+		6D7F8E3B2058F2FC00B0DFA7 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		6D7F8E3D2058F30900B0DFA7 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		6D7F8E3F2058F32E00B0DFA7 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		6D7F8E402058F32E00B0DFA7 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		6D7F8E432058F33E00B0DFA7 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
+		6D7F8E442058F33E00B0DFA7 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		6D7F8E472058F35100B0DFA7 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		6D7F8E482058F35200B0DFA7 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
 		7BC00BA82DB2D062405339D4 /* libPods-AppBasicFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppBasicFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		811D48E71F5554DF00B25E4D /* LogDeallocHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogDeallocHeader.h; sourceTree = "<group>"; };
 		811D48E91F55577100B25E4D /* RootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootObject.h; sourceTree = "<group>"; };
@@ -728,6 +744,8 @@
 			children = (
 				1870E6AF1EF2667100A24475 /* Controller */,
 				1870E6B31EF2667100A24475 /* View */,
+				6D7F8E482058F35200B0DFA7 /* model */,
+				6D7F8E472058F35100B0DFA7 /* ViewModel */,
 			);
 			path = FourSection;
 			sourceTree = "<group>";
@@ -755,6 +773,8 @@
 			children = (
 				1870E6B51EF2667100A24475 /* Controller */,
 				1870E6B91EF2667100A24475 /* View */,
+				6D7F8E3B2058F2FC00B0DFA7 /* model */,
+				6D7F8E3D2058F30900B0DFA7 /* ViewModel */,
 			);
 			path = OneSection;
 			sourceTree = "<group>";
@@ -782,6 +802,8 @@
 			children = (
 				1870E6BB1EF2667100A24475 /* Controller */,
 				1870E6BF1EF2667100A24475 /* View */,
+				6D7F8E432058F33E00B0DFA7 /* model */,
+				6D7F8E442058F33E00B0DFA7 /* ViewModel */,
 			);
 			path = ThreeSection;
 			sourceTree = "<group>";
@@ -809,6 +831,8 @@
 			children = (
 				1870E6C11EF2667100A24475 /* Controller */,
 				1870E6C51EF2667100A24475 /* View */,
+				6D7F8E402058F32E00B0DFA7 /* model */,
+				6D7F8E3F2058F32E00B0DFA7 /* ViewModel */,
 			);
 			path = TowSection;
 			sourceTree = "<group>";
@@ -1519,9 +1543,17 @@
 				189EB2191F0501F400D29B8D /* districtMGE.plist in Resources */,
 				189EB1F91F05001200D29B8D /* 8D6F1D21-61DD-4617-9932-0B0CD935A29A.png in Resources */,
 				189EB22B1F0503E700D29B8D /* EachBigBankList.plist in Resources */,
+				6D7F8E492058F35200B0DFA7 /* ViewModel in Resources */,
+				6D7F8E4A2058F35200B0DFA7 /* model in Resources */,
+				6D7F8E412058F32E00B0DFA7 /* ViewModel in Resources */,
+				6D7F8E422058F32E00B0DFA7 /* model in Resources */,
+				6D7F8E3C2058F2FC00B0DFA7 /* model in Resources */,
 				189EB2061F0501E000D29B8D /* 54A8FAD4-8867-4180-AFA7-9B5498AB64BF.png in Resources */,
 				1870E66B1EF2240400A24475 /* LaunchScreen.storyboard in Resources */,
+				6D7F8E452058F33E00B0DFA7 /* model in Resources */,
+				6D7F8E462058F33E00B0DFA7 /* ViewModel in Resources */,
 				189EB21F1F05035800D29B8D /* 24BC48E1-0C2F-42BA-A852-9ABF068EE745.png in Resources */,
+				6D7F8E3E2058F30900B0DFA7 /* ViewModel in Resources */,
 				186A93141EFB7B25001069EA /* PopAction.podspec in Resources */,
 				1870E6681EF2240400A24475 /* Assets.xcassets in Resources */,
 				189EB23E1F05074E00D29B8D /* 6A78FE35-31B6-406C-BBF2-69B43D2CBB26.png in Resources */,
