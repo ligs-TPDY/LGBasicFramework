@@ -729,8 +729,6 @@
 				1870E6AF1EF2667100A24475 /* Controller */,
 				1870E6B31EF2667100A24475 /* View */,
 				1870E6B01EF2667100A24475 /* Model */,
-				1870E6B21EF2667100A24475 /* Service */,
-				1870E6B11EF2667100A24475 /* Resource */,
 			);
 			path = FourSection;
 			sourceTree = "<group>";
@@ -751,20 +749,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1870E6B11EF2667100A24475 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		1870E6B21EF2667100A24475 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		1870E6B31EF2667100A24475 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,8 +764,6 @@
 				1870E6B51EF2667100A24475 /* Controller */,
 				1870E6B91EF2667100A24475 /* View */,
 				1870E6B61EF2667100A24475 /* Model */,
-				1870E6B81EF2667100A24475 /* Service */,
-				1870E6B71EF2667100A24475 /* Resource */,
 			);
 			path = OneSection;
 			sourceTree = "<group>";
@@ -802,20 +784,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1870E6B71EF2667100A24475 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		1870E6B81EF2667100A24475 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		1870E6B91EF2667100A24475 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -831,8 +799,6 @@
 				1870E6BB1EF2667100A24475 /* Controller */,
 				1870E6BF1EF2667100A24475 /* View */,
 				1870E6BC1EF2667100A24475 /* Model */,
-				1870E6BE1EF2667100A24475 /* Service */,
-				1870E6BD1EF2667100A24475 /* Resource */,
 			);
 			path = ThreeSection;
 			sourceTree = "<group>";
@@ -853,20 +819,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1870E6BD1EF2667100A24475 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		1870E6BE1EF2667100A24475 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
 		1870E6BF1EF2667100A24475 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -881,8 +833,6 @@
 			children = (
 				1870E6C51EF2667100A24475 /* View */,
 				1870E6C21EF2667100A24475 /* Model */,
-				1870E6C41EF2667100A24475 /* Service */,
-				1870E6C31EF2667100A24475 /* Resource */,
 			);
 			path = TowSection;
 			sourceTree = "<group>";
@@ -901,20 +851,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		1870E6C31EF2667100A24475 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		1870E6C41EF2667100A24475 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 		1870E6C51EF2667100A24475 /* View */ = {
